@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    margin-top: 16px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around
+}
+nav{
+    box-sizing: border-box;
+    padding-top: 10.5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+    border-top: solid #fae3ae;
+    border-bottom: solid #fae3ae;
+    color: #fcd061;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+nav ul li:nth-child(2){
+    margin: 0 16px;
+}
+
+nav ul li:hover{
+background-color: #fcd061;
+box-shadow:  0 0 8px #fae5ae,
+            0 0 8px #afafaf,
+            0 0 10px #fae5ae,
+            0 0 12px #fae5ae;
+border-radius: 8px;
+color: white;
+transition: 1s;            
+
+}
+
+
+section div.redes img:nth-child(1){
+    margin-right: 32px;
+}
